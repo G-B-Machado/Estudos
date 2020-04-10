@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luanna cakes</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="img/logo.jpg" alt="Logo da Luanna Cakes" width='150px;'>
+        </div>
+        <nav>
+            <ol>
+               <il>Home</il>
+               <il>Catalogo</il>
+               <il>Fale Conosco</il>               
+            </ol>
+        </nav>
+    </header>
+    <main>
+        <hr>
+        <h3>Catálogos</h3>
+        <p>
+            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+        </p>
+        <br>
+        <figure>
+            <img src="img/bolo1.jpg" alt="Bolo 1" width="200px;">
+            <figcaption>Bolo de Chocolate</figcaption>
+        </figure>
+        <br>
+        <hr>
+        <br>
+        <form>
+            <fieldset>
+                <legend>Dados do usuário</legend>
+                <label>Nome</label><input type="text" placeholder="Nome">                
+                <label>Idade</label><input type="text" placeholder="Idade">                
+                <label>Sexo</label>
+                <input list="sexo" name="sexo">
+                <datalist type="text" placeholder="Nome" id="sexo">
+                    <option value="Masculino">
+                    <option value="Feminino">
+                </datalist>
+            </fieldset>
+            <fieldset>
+                <legend>Dados da compra</legend>
+                <label>Quantidade</label><input type="number" placeholder="0">                              
+                <label>Bolos</label>
+                <input list="bolos" name="bolo">
+                <datalist type="text" placeholder="Nome" id="bolos">
+                    <option value="Bolo de Cenoura">
+                    <option value="Bolo de Chocolate">
+                    <option value="Bolo de Fubá">
+                </datalist>
+                <label>Valor 150</label>
+            </fieldset>
+        </form>
+    </main>
+    <footer>
+        Criado por Guilherme Machado
+    </footer>
+</body>
+</html>
